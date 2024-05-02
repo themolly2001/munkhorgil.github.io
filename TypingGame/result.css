@@ -1,0 +1,9 @@
+.result-details li p {
+    font-size: 19px;
+  }
+  
+.result-details li span {
+    display: block;
+    font-size: 20px;
+    margin-left: 10px;
+  }

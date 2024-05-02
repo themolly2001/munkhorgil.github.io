@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+        integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <!-- <link rel="stylesheet" href="Pstage.css"> -->
+    <title>Python_stage</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .box {
+        width: 90%;
+        height: 600px;
+        margin: 0 auto;
+        margin-top: 80px;
+        border: 3px solid black;
+        background-color: rgba(250, 235, 215,0.5);
+        border-radius: 20px;
+
+        
+    }
+    h1 {
+        color: rgb(19, 21, 88);
+    }
+    h3 {
+        font-size: 25px;
+        color: red;
+        display: inline-block;
+    }
+    .tit {
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        margin-bottom: 66px;
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+
+    .bodybox {
+        display: flex;
+        margin-left: 200px;
+    }
+
+    .bodybox>div {
+        margin-top: 100px;
+        width: 500px;
+        height: 200px;
+    }
+
+    .txt {
+        line-height: 60px;
+    }
+
+    button {
+        margin-left: 100px;
+        display: block;
+        width: 150px;
+        height: 60px;
+        font-size: 20px;
+        margin-top: 20px;
+        border-radius: 10px;
+        border: 0px;
+        background-color: #d06444;
+        transition: 0.5s;
+    }
+
+    
+
+    button span {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        line-height: 60px;
+        text-align: center;
+        cursor: pointer;
+        display: block;
+        position: relative;
+        transition: 0.5s;
+    }
+    button:hover span{
+        font-size: 23px;
+    }
+    button:hover{
+        background-color: #468bed;
+    }
+</style>
+
+<body>
+    <div class="box">
+        <div class="tit">
+            <h1> results</h1>
+        </div>
+        <div class="bodybox">
+            <div class="txt">
+                <div><h3> length:</h3><span></span></div>
+                <div><h3> time:</h3><span></span></div>
+                <div><h3> error:</h3><span></span></div>
+            </div>
+
+            <div class="btn">
+                <button type="button" onclick="location.href = 'Pstage.html'" id="btn1"><span>Try again!</span></button>
+                <button id="btn2"><span>share results</span></button>
+            </div>
+
+        </div>
+
+        <!-- <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+            <a class="a2a_dd" href="https://www.addtoany.com/share">分享</a>
+            <a class="a2a_button_facebook"></a>
+            <a class="a2a_button_twitter"></a>
+            <a class="a2a_button_line"></a>
+            <a class="a2a_button_whatsapp"></a>
+        </div> -->
+    </div>
+    <!-- <script async src="https://static.addtoany.com/menu/page.js"></script> -->
+
+</body>
+
+</html>
