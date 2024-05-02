@@ -1,0 +1,1 @@
+Welcome to my portfolio. This portfolio showcases my understanding of different programming languages and skills via small projects! Lots of fun and a great way to learn :) 
