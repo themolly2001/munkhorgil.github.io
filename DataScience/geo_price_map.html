@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f8fbfa23c95beba16a07137e767e1bf7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f8fbfa23c95beba16a07137e767e1bf7" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f8fbfa23c95beba16a07137e767e1bf7 = L.map(
+                "map_f8fbfa23c95beba16a07137e767e1bf7",
+                {
+                    center: [48.296, 104.08400000000002],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_88b9f797461a60d86fe57a55061e8ad3 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_88b9f797461a60d86fe57a55061e8ad3.addTo(map_f8fbfa23c95beba16a07137e767e1bf7);
+        
+    
+            var marker_5c3d4815176bcdd19b46a6d1a48d5543 = L.marker(
+                [46.27, 102.78],
+                {}
+            ).addTo(map_f8fbfa23c95beba16a07137e767e1bf7);
+        
+    
+            var icon_b730565f494d46d340b1004351ecad52 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5c3d4815176bcdd19b46a6d1a48d5543.setIcon(icon_b730565f494d46d340b1004351ecad52);
+        
+    
+        var popup_225afd2c8329a1d0b67608e60a687b5f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd1315ffe4bacf49af597fecba8ab06e = $(`<div id="html_cd1315ffe4bacf49af597fecba8ab06e" style="width: 100.0%; height: 100.0%;">Average Price: $1.95 USD</div>`)[0];
+                popup_225afd2c8329a1d0b67608e60a687b5f.setContent(html_cd1315ffe4bacf49af597fecba8ab06e);
+            
+        
+
+        marker_5c3d4815176bcdd19b46a6d1a48d5543.bindPopup(popup_225afd2c8329a1d0b67608e60a687b5f)
+        ;
+
+        
+    
+    
+            var marker_bbaeabc0c0d81b62b4fa842f0c8236a8 = L.marker(
+                [47.92, 106.92],
+                {}
+            ).addTo(map_f8fbfa23c95beba16a07137e767e1bf7);
+        
+    
+            var icon_f4725dfde070e8a96ff06ffd66c782c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bbaeabc0c0d81b62b4fa842f0c8236a8.setIcon(icon_f4725dfde070e8a96ff06ffd66c782c4);
+        
+    
+        var popup_c707187e23943876fda04b15f066d7b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a7351fd2111cb06464796dd632d27b6 = $(`<div id="html_6a7351fd2111cb06464796dd632d27b6" style="width: 100.0%; height: 100.0%;">Average Price: $1.85 USD</div>`)[0];
+                popup_c707187e23943876fda04b15f066d7b2.setContent(html_6a7351fd2111cb06464796dd632d27b6);
+            
+        
+
+        marker_bbaeabc0c0d81b62b4fa842f0c8236a8.bindPopup(popup_c707187e23943876fda04b15f066d7b2)
+        ;
+
+        
+    
+    
+            var marker_2f456a339928b2eecf6af428c377e2b7 = L.marker(
+                [48.08, 114.54],
+                {}
+            ).addTo(map_f8fbfa23c95beba16a07137e767e1bf7);
+        
+    
+            var icon_74b0c3a16b4230928bed7239d06214bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2f456a339928b2eecf6af428c377e2b7.setIcon(icon_74b0c3a16b4230928bed7239d06214bf);
+        
+    
+        var popup_445a181e8dff5082c0c6ac6c374cf002 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9df32284d96bcd6af522735867357065 = $(`<div id="html_9df32284d96bcd6af522735867357065" style="width: 100.0%; height: 100.0%;">Average Price: $1.93 USD</div>`)[0];
+                popup_445a181e8dff5082c0c6ac6c374cf002.setContent(html_9df32284d96bcd6af522735867357065);
+            
+        
+
+        marker_2f456a339928b2eecf6af428c377e2b7.bindPopup(popup_445a181e8dff5082c0c6ac6c374cf002)
+        ;
+
+        
+    
+    
+            var marker_01f321ea51257d9a7aa3010c9e331b5b = L.marker(
+                [48.97, 89.97],
+                {}
+            ).addTo(map_f8fbfa23c95beba16a07137e767e1bf7);
+        
+    
+            var icon_012fb0568847d55ef43727429646c82c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_01f321ea51257d9a7aa3010c9e331b5b.setIcon(icon_012fb0568847d55ef43727429646c82c);
+        
+    
+        var popup_b6721c5785c595d86cc551f46cf98961 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_411e6cade56cd94470b73c95fcc1722a = $(`<div id="html_411e6cade56cd94470b73c95fcc1722a" style="width: 100.0%; height: 100.0%;">Average Price: $1.72 USD</div>`)[0];
+                popup_b6721c5785c595d86cc551f46cf98961.setContent(html_411e6cade56cd94470b73c95fcc1722a);
+            
+        
+
+        marker_01f321ea51257d9a7aa3010c9e331b5b.bindPopup(popup_b6721c5785c595d86cc551f46cf98961)
+        ;
+
+        
+    
+    
+            var marker_8b3a1836194f7600680b57161943ee9d = L.marker(
+                [50.24, 106.21],
+                {}
+            ).addTo(map_f8fbfa23c95beba16a07137e767e1bf7);
+        
+    
+            var icon_7d8d8428e71412ba908f0b648a6ff9cc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8b3a1836194f7600680b57161943ee9d.setIcon(icon_7d8d8428e71412ba908f0b648a6ff9cc);
+        
+    
+        var popup_581fcfba883899b35d209d090c9cdee3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45d9e34652e9ee1a35225be335791e7b = $(`<div id="html_45d9e34652e9ee1a35225be335791e7b" style="width: 100.0%; height: 100.0%;">Average Price: $1.82 USD</div>`)[0];
+                popup_581fcfba883899b35d209d090c9cdee3.setContent(html_45d9e34652e9ee1a35225be335791e7b);
+            
+        
+
+        marker_8b3a1836194f7600680b57161943ee9d.bindPopup(popup_581fcfba883899b35d209d090c9cdee3)
+        ;
+
+        
+    
+</script>
+</html>
